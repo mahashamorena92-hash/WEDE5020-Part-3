@@ -1,7 +1,11 @@
-# Wede50202
-git add .
-git commit -m "Updated README for Part 2"
-git push
+# WEDE5020 Part 3 - Medicare P Food Parcel Foundation
+
+## Live Website (Netlify)
+https://curious-faloodeh-a94475.netlify.app/
+
+## GitHub Repository
+https://github.com/mahashamorena02/WEDE5020-Part-3
+
 ## References
 
 ### Images
