@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved - Fred and Martie Soupkitchen</title>
+ <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header>
+  <h1>Fred and Martie Soupkitchen</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Our Programs</a></li>
+      <li><a href="enquiry.html">Get Involved</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Get Involved</h2>
+  <div class="tab-buttons">
+    <button class="tab-btn active" onclick="openTab('volunteer')">Volunteer Form</button>
+    <button class="tab-btn" onclick="openTab('sponsor')">Become a Sponsor</button>
+  </div>
+
+  <div id="volunteer" class="tab-content active">
+    <form>
+      <label>Name:</label><input type="text" required>
+      <label>Email:</label><input type="email" required>
+      <label>When can you help?</label><select><option>Weekdays</option><option>Weekends</option></select>
+      <label>Message:</label><textarea></textarea>
+      <button type="submit">Submit Volunteer Request</button>
+    </form>
+  </div>
+
+  <div id="sponsor" class="tab-content">
+    <form>
+      <label>Company/Name:</label><input type="text" required>
+      <label>Email:</label><input type="email" required>
+      <label>Sponsorship Type:</label><select><option>Monthly Donation</option><option>Food Parcel</option><option>Once-off</option></select>
+      <label>Message:</label><textarea></textarea>
+      <button type="submit">Become a Sponsor</button>
+    </form>
+  </div>
+</main>
+
+<footer><p>&copy; 2026 Fred and Martie Soupkitchen | Follow us: Facebook | Instagram</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
